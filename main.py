@@ -53,7 +53,7 @@ def preprocess_data(data):
 
 ## Шаг 2. Импорт и подготовка данных для обучения модели
 
-df = pd.read_csv('/Users/maricolada/Downloads/elbrus/ds-phase-1/06-supervised/aux/heart.csv') 
+df = pd.read_csv('heart.csv') 
 df, chest_pain_dummies = preprocess_data(df)
 
 # разделим данные на features и target
